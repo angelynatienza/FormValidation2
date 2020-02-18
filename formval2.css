@@ -1,0 +1,59 @@
+.box
+{
+    border: solid;
+    border-width: 10px;
+    max-width: 10cm;
+    background-color: gray;
+}
+
+label
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    margin-left: 1cm;
+}
+
+#username
+{
+    margin-left:7px;
+    width: 1.5in;
+}
+
+#pass
+{
+    margin-left:4px;
+    width: 1.5in;
+}
+
+#confirmPass
+{
+    margin-left: 3px;
+    width: 1.5in;
+}
+
+select
+{
+    margin-left: 73.5px;
+    width: 1.53in;
+}
+
+#emailAd
+{
+    margin-left: 84px;
+    width: 1.5in;
+}
+
+p
+{
+    font-size:  13px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    margin-left: 1cm;
+}
+
+#submitButton
+{
+    margin-left: 1cm;
+    line-height: 15px;
+}

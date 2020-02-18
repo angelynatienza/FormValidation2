@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/formval2.css">
+    <script src="js/formval2.js"></script>
+
+</head>
+<body>
+    <div class="box">
+        <form>
+            <br>
+            <label>Login&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" required></label><br><br>
+            <label>Password&emsp;&emsp;&emsp;&emsp;&emsp;<input type="password" id="pass" value="" required></label>
+            <span id="message" style="color:red; font-weight: bold;"> </span><br><br>
+            <label>  Confirm Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="confirmPass" value="" required></label><br><br>
+            <label>Gender  </label>
+            &nbsp;<select style="width: 170px">
+                        <option value="0" selected>Gender</option>
+                        <option value = "1">Male</option>
+                        <option value ="2">Female</option>
+                     </select><br></br>
+            <label>Email   <input type="email" id="emailAd" required></label><br><br>
+            <input type="submit" value="Register" id="submitButton" onclick="validate()"><br><br>
+            <div id="passmatch" style="color:white" font-weight: bolder;"></div> 
+            <br><br><br>
+        </div>
+</body>
+</html>
